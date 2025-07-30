@@ -34,3 +34,5 @@ plt.plot(scaled_square[0], scaled_square[1], 'ro-', label='Scaled Square')
 plt.legend()
 plt.axis('equal')
 plt.show()
+
+
