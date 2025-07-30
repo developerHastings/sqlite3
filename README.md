@@ -22,3 +22,11 @@ Create an identity and zero matrix in NumPy; demonstrate that A x I = A and A + 
 Apply a scaling and rotation transformation to a set of 2D points; visualize with Matplotlib.
 
 Experiment with changing the transformation matrix to see effects (try reflection, shearing, etc.).
+
+
+# Wednesday 30th July Exercise
+Create several matrices—check and interpret their rank.
+
+Calculate and interpret eigenvalues/eigenvectors for simple 2x2 matrices.
+
+Visualize how a matrix transformation stretches along eigenvector directions.
