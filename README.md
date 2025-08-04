@@ -28,6 +28,7 @@ Experiment with changing the transformation matrix to see effects (try reflectio
 Create several matrices—check and interpret their rank.
 
 Calculate and interpret eigenvalues/eigenvectors for simple 2x2 matrices.
+Visualize how a matrix transformation stretches along eigenvector directions.
 
 # Monday 04th August Exercise
 1. Write a Python function to compute the numerical derivative of any user-supplied function at any point
@@ -37,4 +38,4 @@ Calculate and interpret eigenvalues/eigenvectors for simple 2x2 matrices.
 -Observe how the numerical approximation improves or becomes unstable.
 4. Create a plot showing both a function and its numerical derivative on the same graph
 
-Visualize how a matrix transformation stretches along eigenvector directions.
+
