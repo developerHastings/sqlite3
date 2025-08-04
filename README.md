@@ -29,4 +29,12 @@ Create several matrices—check and interpret their rank.
 
 Calculate and interpret eigenvalues/eigenvectors for simple 2x2 matrices.
 
+# Monday 04th August Exercise
+1. Write a Python function to compute the numerical derivative of any user-supplied function at any point
+2. Use your function to compute the derivative of f(x) = 3x^3 + 2x at several points.
+3. Show how small vs large dx affects the accuracy of your numerical derivative
+-Compute and print the derivative at x = 1 for different values of dx
+-Observe how the numerical approximation improves or becomes unstable.
+4. Create a plot showing both a function and its numerical derivative on the same graph
+
 Visualize how a matrix transformation stretches along eigenvector directions.
