@@ -38,4 +38,15 @@ Visualize how a matrix transformation stretches along eigenvector directions.
 -Observe how the numerical approximation improves or becomes unstable.
 4. Create a plot showing both a function and its numerical derivative on the same graph
 
+# Tuesday 5th August Exercise 
+
+Compute Gradients for Multivariable Functions — Given function: f(x, y) = 3x^2y + 2*y^3.
+(a) Compute analytically the partial derivatives ∂f/∂x and ∂f/∂y. 
+(b) Write a Python function for f(x, y).
+(c) Implement a function to compute the partial derivatives numerically at (x=1, y=2).
+
+# Wednesday 6th August 2025 Exercise
+Implement gradient descent to minimize the function:
+f(x) = x^2 + 2*x + 1
+(the minimum is at x = -1)
 
