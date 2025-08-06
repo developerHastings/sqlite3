@@ -45,4 +45,8 @@ Compute Gradients for Multivariable Functions — Given function: f(x, y) = 3x^2
 (b) Write a Python function for f(x, y).
 (c) Implement a function to compute the partial derivatives numerically at (x=1, y=2).
 
+# Wednesday 6th August 2025 Exercise
+Implement gradient descent to minimize the function:
+f(x) = x^2 + 2*x + 1
+(the minimum is at x = -1)
 
