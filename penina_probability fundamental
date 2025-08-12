@@ -1,0 +1,52 @@
+import num as np
+
+def bayes_theorem_vectorized(prior, sensitivity, specificity, tests):
+    """
+    Calculate posterior probabilities for multiple test results.
+
+    Parameters:
+    - prior: float, prior probability of disease
+    - sensitivity: float, true positive rate
+    - specificity: float, true negative rate
+    - tests: num array of bool, True means positive test, False negative
+
+    Returns:
+    - num array of posterior probabilities for each test
+    """
+
+    p_no_disease = 1 - prior
+    p_pos_given_no_disease = 1 - specificity
+
+    # Probability of positive test overall
+    p_test_pos = (sensitivity * prior) + (p_pos_given_no_disease * p_no_disease)
+    p_test_neg = 1 - p_test_pos
+
+    # Posterior probability for positive tests
+    posterior_pos = (sensitivity * prior) / p_test_pos
+
+    # Posterior probability for negative tests
+    posterior_neg = ((1 - sensitivity) * prior) / p_test_neg
+
+    # Vectorized posterior probabilities for all tests
+    posteriors = np.where(tests, posterior_pos, posterior_neg)
+
+    return posteriors
+
+if __name__ == "__main__":
+    # Set seed for reproducibility
+    np.random.seed(0)
+
+    # Simulate 10 random test results (mostly negatives)
+    test_results = np.random.choice([True, False], size=10, p=[0.05, 0.95])
+
+    # Given parameters
+    prior = 0.01           # 1% prevalence
+    sensitivity = 0.99     # 99% sensitivity
+    specificity = 0.95     # 95% specificity
+
+    # Calculate posterior probabilities for each test
+    posteriors = bayes_theorem_vectorized(prior, sensitivity, specificity, test_results)
+
+    # Print results
+    for i, (test, prob) in enumerate(zip(test_results, posteriors), 1):
+        print(f"Test {i}: {'Positive' if test else 'Negative'} - Probability of disease: {prob:.4f}")
