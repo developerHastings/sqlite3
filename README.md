@@ -50,3 +50,10 @@ Implement gradient descent to minimize the function:
 f(x) = x^2 + 2*x + 1
 (the minimum is at x = -1)
 
+# Tuesday 12th August 2025 Exercise
+Simulate rolling two dice 10,000 times.
+
+Find the probability distribution for the sum of the two dice.
+
+Plot the probability distribution and identify the most likely sums.
+
