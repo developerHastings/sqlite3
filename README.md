@@ -57,3 +57,11 @@ Find the probability distribution for the sum of the two dice.
 
 Plot the probability distribution and identify the most likely sums.
 
+# Wednesday 13th August 2025 Exercise
+Generate two synthetic variables with different levels of correlation.
+
+Compute and interpret their covariance and correlation matrices.
+
+Create scatter plots for visual inspection.
+
+
