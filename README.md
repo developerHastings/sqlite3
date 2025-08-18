@@ -64,4 +64,11 @@ Compute and interpret their covariance and correlation matrices.
 
 Create scatter plots for visual inspection.
 
+# Monday 18th August 2025 Exercise
+Simulate your own population data (change mean, std).
 
+Draw samples of different sizes (10, 100, 1000).
+
+Calculate the sample mean and 95% confidence interval for each sample.
+
+Observe how the confidence interval changes with sample size.
