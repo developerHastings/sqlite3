@@ -72,3 +72,11 @@ Draw samples of different sizes (10, 100, 1000).
 Calculate the sample mean and 95% confidence interval for each sample.
 
 Observe how the confidence interval changes with sample size.
+
+# Tuesday 19th August 2025 Exercise
+Simulate your own sample data with a different mean.
+
+Test if the sample mean differs significantly from a chosen population mean.
+
+Try varying sample size and observe effect on significance.
+
