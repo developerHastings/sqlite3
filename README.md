@@ -80,3 +80,13 @@ Test if the sample mean differs significantly from a chosen population mean.
 
 Try varying sample size and observe effect on significance.
 
+# Wednesday 20th August 2025 Exercise
+Extend this code (linear_regression.py) to:
+
+Calculate residuals (difference between actual and predicted values).
+
+Compute R-squared (goodness of fit).
+
+Try fitting using multiple features (x with two or more columns).
+
+Interpret coefficients in context of real-world data.
