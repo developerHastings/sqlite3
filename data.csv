@@ -1,0 +1,12 @@
+id,name,age,enrollment_date,score,city
+1,Alice,25,2/15/2021,88.5,New York
+2,Bob,,3/10/2021,92,new york
+2,Bob,,3/10/2021,92,new york
+3,Charlie,22,,85,Los Angeles
+4,David,30,15-04-2021,79,Chicago
+5,Evelyn,29,4/20/2021,,Boston
+6,Frank,27,5/1/2021,90,chicago
+7,Grace,-,8/12/2021,87.5,Boston
+8,Hannah,26,6/30/2021,88,Los Angeles
+9,Ian,24,7/1/2021,NaN,New York
+10,Julia,28,7/15/2021,91,Boston

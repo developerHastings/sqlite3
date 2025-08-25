@@ -1,0 +1,12 @@
+order_id,customer_name,age,purchase_date,purchase_amount,city
+101,John Smith,34,2023-01-10,250.75,New York
+102,Jane Doe,28,01-02-2023,100,new york
+103,Alice Jones,,2023-01-15,350.40,Chicago
+104,Bob Brown,45,2023/01/20,200,Chicago
+104,Bob Brown,45,2023/01/20,200,Chicago
+105,Charlie Black,-1,2023-01-25,175,Los Angeles
+106,Dana White,30,2023-01-30,,Boston
+107,Eva Green,27,2023-02-02,300.10,boston
+108,Frank Blue,31,2023-02-05,225.50,LOS ANGELES
+109,Grace Pink,29,2023-02-10,400.00,New York
+110,Henry Grey,,2023-02-15,150,Boston
