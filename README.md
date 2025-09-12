@@ -90,3 +90,54 @@ Compute R-squared (goodness of fit).
 Try fitting using multiple features (x with two or more columns).
 
 Interpret coefficients in context of real-world data.
+
+# Machine Learning Test Project
+Project Tasks
+1. Data Loading and Exploration
+Load the Iris dataset from scikit-learn.
+
+Display basic information: shape, feature names, and first 5 rows of data.
+
+2. K-Means Clustering
+Perform K-Means clustering with 3 clusters (n_clusters=3).
+
+Print cluster centers and inertia.
+
+Calculate and print the silhouette score.
+
+Visualize the clusters and centroids using the first two features in a scatter plot.
+
+3. Principal Component Analysis (PCA)
+Apply PCA to reduce the Iris dataset dimensions from 4 to 2.
+
+Print the explained variance ratio of the two components.
+
+Visualize the data on the first two principal components scatter plot, coloring points by their true species labels.
+
+4. Hierarchical Clustering
+Perform hierarchical agglomerative clustering on the Iris data using Ward linkage.
+
+Plot the dendrogram to show cluster merges.
+
+Cut the dendrogram at an appropriate distance to form clusters, assign cluster labels.
+
+Print these cluster assignments.
+
+5. Comparative Visualization
+Create a 2x2 subplot figure with:
+
+K-Means clusters (scatter plot with centroids).
+
+PCA projection colored by true labels.
+
+Dendrogram from hierarchical clustering.
+
+Hierarchical clustering flat cluster assignments scatter plot.
+
+
+Bonus Challenge
+Experiment with different values of K and linkage methods (single, complete, average) for hierarchical clustering.
+
+Generate elbow plots and silhouette scores for K-Means with varying K.
+
+Report which configurations produce the best clusters and why.
